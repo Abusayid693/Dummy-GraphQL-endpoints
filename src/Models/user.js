@@ -39,5 +39,4 @@ const UserSchema = new Schema({
   },
 });
 
-// export const Cat = mongoose.model("Cat", CatSchema)
 export const User = mongoose.model("user", UserSchema);

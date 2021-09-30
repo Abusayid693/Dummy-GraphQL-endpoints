@@ -106,5 +106,33 @@
     #   )
     # }
     
-    */
+# Professor Login - sign-up query
+
+# mutation{
+#   professorRegistration(user_data:{
+#     name:"grvf"
+#     email:"knkerj"
+#     confirmEmail:"frgrg"
+#     Enrolled_classes:["fvf"]
+#     Office_hours:[{
+#       Day:"fvfr"
+#       Time:"gfg"
+#       Empty:1
+#     }]
+#   })
+# {  
+#   name
+#   email
+#   confirmEmail
+#   Enrolled_classes
+#   Office_hours{
+#     Day
+#     Time
+#     Empty
+#   }
+# }
+# }
+
+*/
+
     

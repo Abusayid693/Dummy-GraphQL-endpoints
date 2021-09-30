@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
-const Professor = new Schema({
+const ProfessorSchema = new Schema({
   name: {
     type: String,
     required: [true, "User First-name is required"],
@@ -33,10 +33,12 @@ const Professor = new Schema({
           type:String,
       },
       Empty:{
-         type:Boolean,
+         type:Number,
       }
   
   }],
 
 
 });
+
+export const Professor = mongoose.model("prof", ProfessorSchema);
