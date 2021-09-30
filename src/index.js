@@ -18,7 +18,7 @@ async function startApolloServer(typeDefs, resolvers) {
 
 try {
   await mongoose.connect(
-    "mongodb://localhost/test30",
+    "mongodb://localhost/test41",
     { useUnifiedTopology: true },
     { useNewUrlParser: true }
   )} catch{
